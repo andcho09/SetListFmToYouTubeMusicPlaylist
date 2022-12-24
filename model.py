@@ -3,7 +3,7 @@ class Song():
 	def __init__(self, artist: str, song: str, album: str = None, videoId: str = None):
 		self.artist = artist
 		self.song = song
-		self.album = None
+		self.album = album
 		self.videoId = videoId # YouTube music video ID
 	
 	def __str__(self):

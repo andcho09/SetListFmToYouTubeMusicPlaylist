@@ -10,9 +10,22 @@
 		$ source .venv/bin/activate
 		$ pip install -r requirements.txt
 
+1. Install development modules
+
+		$ pip install -e <path to youtubemusiccache>
+
 1. Create a ``headers_auth.json`` file with YouTube Music authorisation details by following these [instructions](https://ytmusicapi.readthedocs.io/en/latest/setup.html)
 
-		# In Python shell
-		from ytmusicapi import YTMusic
-		yt = YTMusic('headers_auth.json')
+### Run
 
+1. In virtual environment...
+
+1. Run
+
+		$ python main.py
+
+### Tests
+
+```
+python -m pytest
+```

@@ -1,1 +1,3 @@
+fuzzywuzzy
+pytest
 ytmusicapi

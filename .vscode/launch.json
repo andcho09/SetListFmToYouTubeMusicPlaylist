@@ -10,7 +10,15 @@
 			"request": "launch",
 			"program": "main.py",
 			"console": "integratedTerminal",
-			"justMyCode": false
-		}
+			"justMyCode": true
+		},
+		{
+			"name": "Tests",
+			"type": "python",
+			"request": "launch",
+			"module": "pytest",
+			"console": "integratedTerminal",
+			"justMyCode": true
+		},
 	]
 }
