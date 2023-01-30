@@ -22,7 +22,11 @@
 
 1. Run
 
-		$ python main.py
+		$ python main.py <name of YouTube Music playlist to create> <setlist.fm URL>
+
+	For example:
+
+		$ python main.py Khruangbin https://www.setlist.fm/setlist/khruangbin/2022/roadrunner-boston-ma-438927e3.html
 
 ### Tests
 
