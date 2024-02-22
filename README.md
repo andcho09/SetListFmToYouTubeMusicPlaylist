@@ -14,7 +14,7 @@
 
 		$ pip install -e <path to youtubemusiccache>
 
-1. Create a ``headers_auth.json`` file with YouTube Music authorisation details by following these [instructions](https://ytmusicapi.readthedocs.io/en/latest/setup.html)
+1. Create a ``headers_auth.json`` file with YouTube Music authorisation details by following these [instructions](https://ytmusicapi.readthedocs.io/en/stable/setup/browser.html#copy-authentication-headers)
 
 ### Run
 
